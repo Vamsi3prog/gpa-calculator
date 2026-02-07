@@ -6,9 +6,9 @@ function calculate() {
   let result;
 
   if (practical === 0) {
-    result = internal + ((sem * 2) / 3);
+    result = (internal + ((sem * 2) / 3)) / 10;
   } else {
-    result = internal + ((sem + practical) / 2.5);
+    result = (internal + ((sem + practical) / 2.5)) / 10;
   }
 
   document.getElementById("result").textContent =

@@ -5,6 +5,12 @@ function calculate() {
 
   let result;
 
+  if (isNaN(internal) || isNaN(sem) || isNaN(practical)) {
+    document.getElementById("result").textContent =
+      "Please enter all values";
+    return;
+  }
+  
   if (practical === 0) {
     result = (internal + ((sem * 2) / 3)) / 10;
   } else {

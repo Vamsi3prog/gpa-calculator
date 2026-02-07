@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Monospace, sans-serif;
   background: #000000;
 }
 
@@ -7,7 +7,7 @@ body {
   width: 300px;
   margin: 100px auto;
   padding: 40px;
-  background: white;
+  background: #c1f9ff;
   border-radius: 18px;
 }
 

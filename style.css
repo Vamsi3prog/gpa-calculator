@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  background: #000000;
 }
 
 .container {
@@ -11,18 +11,13 @@ body {
   border-radius: 18px;
 }
 
-input {
-  width: 89%;
-  padding: 15px;
-  margin: 10px;
-  text-align: center;
-}
-
+input,
 button {
   width: 100%;
   padding: 15px;
-  margin: 10px;
+  margin: 10px 0;
   text-align: center;
+  box-sizing: border-box;
 }
 
 button {

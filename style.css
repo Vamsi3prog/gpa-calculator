@@ -33,6 +33,7 @@ button {
   margin: 10px 0;
   text-align: center;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 
 /* Calculate button */

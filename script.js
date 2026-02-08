@@ -14,7 +14,7 @@ function calculate() {
   if (practical === 0) {
     result = (internal + ((sem * 2) / 3)) / 10;
   } else {
-    result = (internal + ((sem + practical) / 2.5)) / 10;
+    result = (internal + ((sem * 25) / 60) + ((practical * 15) / 40)) / 10;
   }
 
   document.getElementById("result").textContent =

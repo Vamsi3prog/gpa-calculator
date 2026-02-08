@@ -75,30 +75,30 @@ button:hover {
 
 /* Internals */
 #btn1 {
-  background: #4caf50;
+  background: #1da4da;
   color: white;
 }
 
 #btn1:hover {
-  background: #388e3c;
+  background: #1d789c;
 }
 
 /* Sem */
 #btn2 {
-  background: #2196f3;
+  background: #1da4da;
   color: white;
 }
 
 #btn2:hover {
-  background: #1976d2;
+  background: #1d789c;
 }
 
 /* Practicals */
 #btn3 {
-  background: #ff9800;
-  color: black;
+  background: #1da4da;
+  color: white;
 }
 
 #btn3:hover {
-  background: #f57c00;
+  background: #1d789c;
 }
